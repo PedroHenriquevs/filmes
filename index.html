@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar-pesquisa">
+            <input type="text" id="tituloFilme" placeholder="Digite o filme que deseja encontrar">
+            <button id="botao" onclick="buscar()">Pesquisar</button>
+        </div>
+        <div id="info-filme">
+            <div class="img">
+                <img src="" alt="" id="error">
+            </div>
+            <div class="detalhes">
+                <h1><strong></strong> <span id="titulo"></span></h1>
+                <div class="infos">
+                    <p><strong></strong> <span id="lancamento"></span></p>
+                    <p><strong></strong> <span id="genero"></span></p>
+                    <p><strong></strong> <span id="duracao"></span></p>
+                </div>
+                <p><strong></strong> <span id="sinopse"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <h1> Desenvolvido por Pedro Henrique e Ana Lívia</h1>
+</footer>
+
+</html>

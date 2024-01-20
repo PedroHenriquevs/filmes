@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.bar-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin-top: 10%;
+}
+
+#tituloFilme {
+    color: white;
+    width: 60%;
+    padding: 10px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+#botao {
+    color: white;
+    padding: 10px;
+    background-color: #4A4A4A;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.infos{
+    display: flex;
+    gap: 20px;
+}
+
+.img {
+    padding: 5px;
+}
+
+#error {
+    border-radius: 8px;
+    box-shadow: 0 0 10px 2px #4A4A4A;
+}
+
+#info-filme {
+    width: 87%;
+    padding-top: 25px;
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#titulo {
+    font-size: 38px;
+    color: #fff;
+}
+
+.infos {
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+}
+
+#lancamento,
+#duracao {
+    color: #ce171f;
+}
+
+#genero {
+    color: #cab9b9;
+}
+
+#sinopse {
+    font-size: 18px;
+    color: #cab9b9;
+}
+
+footer h1 {
+    margin-top: 70px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
