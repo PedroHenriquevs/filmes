@@ -27,6 +27,10 @@ function buscar(){
             } else {
                 document.getElementById('error').src = 'imagem_triste-removebg-preview.png'
                 document.getElementById('titulo').textContent = 'Filme não encontrado!'
+                document.getElementById('sinopse').textContent ='';
+                document.getElementById('genero').textContent = '';
+                document.getElementById('lancamento').textContent ='';
+                document.getElementById('duracao').textContent ='';
             }
         })
         .catch(error => console.error (`Erro na solicitação: ${error.message}`));
